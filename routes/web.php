@@ -2,6 +2,12 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+use App\Http\Controllers\Website\ServiceController;
+
+
+
+Route::view('/', 'website.home')->name('home');
+
+
+Route::get('/services/{slug}', [ServiceController::class, 'show'])
+    ->name('services.show');
