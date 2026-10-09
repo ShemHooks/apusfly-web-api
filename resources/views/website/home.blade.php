@@ -154,7 +154,7 @@
 
     <section id="about" class="scroll-mt-24 px-6 py-24">
         <div class="mx-auto grid max-w-7xl items-center gap-12 lg:grid-cols-2">
-            <div class="rounded-3xl bg-primary/10 p-12">
+            <div class="rounded-3xl flex justify-center items-center p-12">
                 <img src="{{ asset('photos/logo.png') }}" alt="ApusFly Logo" class="h-60 w-60 object-contain" />
 
             </div>
