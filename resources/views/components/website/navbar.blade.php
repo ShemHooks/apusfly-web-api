@@ -15,14 +15,17 @@
             <a href="{{ route('home') }}" class="text-sm font-medium hover:text-primary-dark">
                 Home
             </a>
-            <a href="#services" class="text-sm font-medium hover:text-primary-dark">
+            <a href="{{ route('home') }}#services" class="text-sm font-medium hover:text-primary-dark">
                 Services
             </a>
-            <a href="#about" class="text-sm font-medium hover:text-primary-dark">
+            <a href="{{ route('about') }}" class="text-sm font-medium hover:text-primary-dark">
                 About Us
             </a>
-            <a href="#how-it-works" class="text-sm font-medium hover:text-primary-dark">
+            <a href="{{ route('home') }}#how-it-works" class="text-sm font-medium hover:text-primary-dark">
                 How It Works
+            </a>
+            <a href="{{ route('contact') }}" class="transition hover:text-primary-dark">
+                Contact Us
             </a>
         </div>
 
